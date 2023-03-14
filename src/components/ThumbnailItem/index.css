@@ -1,0 +1,11 @@
+.list-item {
+  margin: 10px;
+}
+.thumbNail {
+  width: 50px;
+  color: #64748b;
+  opacity: 0.5;
+}
+.activeImg {
+  opacity: 1;
+}
