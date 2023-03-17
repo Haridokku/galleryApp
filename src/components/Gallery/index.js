@@ -85,7 +85,7 @@ class Gallery extends Component {
   getModifiedImage = () => {
     const {imageId} = this.state
     const modifiedImageList = imagesList.filter(each => each.id === imageId)
-    return modifiedImageList
+    return modifiedImageList[0]
   }
 
   render() {
